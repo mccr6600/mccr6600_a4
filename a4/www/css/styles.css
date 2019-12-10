@@ -1,0 +1,224 @@
+.flex-container {
+	flex-direction: row;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-container > div {
+	width: 293px;
+	height: 293px;
+	margin: 9px;
+}
+
+.flex-container img{
+	height: 100%;
+	width: 100%;
+}
+
+.flex-header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+
+.flex-header > div{
+	width: 300px;
+	height: 300px;
+}
+
+.flex-header img{
+	height: 50%;
+	width: 50%;
+	padding: 50px;
+}
+
+
+body{
+	margin: auto;
+	margin-top: 50px;
+	font: verdana, arial;
+	width: 624px;
+}
+
+h1{
+	font-size: 28px;
+}
+
+p{
+	font-size: 14px;
+}
+
+#overlay {
+      position: fixed;
+      display: none;
+      width: 935px;
+      height: 600px;
+      margin: auto;
+      bottom: 20%;
+      background-color: white;
+      z-index: 2;
+      cursor: pointer;
+    }
+
+.overlayflexcontainer {
+	flex direction: row;
+	display: flex;
+}
+
+.overlayflexcontainer > div {
+	height: 600px;
+	width: 600px'
+	margin: 0px;
+}
+
+
+#text {
+      position: fixed;
+      top: 10%;
+      font-size: 20px;
+      color: black;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+
+#myImage {
+	width: 100%;
+	height: 100%;
+}
+
+#profileImage{
+	width: 32px;
+	height: 32px;
+}
+
+span.a{
+	width: 50px;
+	height: 50px;
+	margin: 20px;
+}
+
+span.b{
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	padding: 5px;
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+span.c{
+	width: 50px;
+	height: 50px;
+	margin: 20px;
+	vertical-align: top;
+	
+}
+
+span.d{
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	padding: 5px;
+	font-size: 14px;
+}
+
+.ending{
+	position: absolute;
+  	bottom: 10px;
+ 	width: 335px;
+}
+
+
+
+/* Tablet */
+@media only screen and (min-width: 700px) and (max-width: 960px) {
+
+body{
+	width: 642px;
+}
+
+.flex-container > div {
+	width: 200px;
+	height: 200px;
+	margin: 7px;
+}
+
+#overlay {
+      width: 642px;
+      height: 412px;
+    }
+
+.overlayflexcontainer > div {
+	width: 412px;
+	height: 412px;
+}
+
+
+
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 961px) {
+body{
+width: 935px;
+}
+
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 699px) {
+
+body{
+width: 312px;
+}
+
+p{display: none;
+}
+
+span.c{display: none;
+}
+
+span.d{display: none;
+}
+
+body{margin-top: 0px
+}
+
+.flex-container > div {
+	width: 98px;
+	height: 98px;
+	margin: 3px;
+}
+
+.flex-header > div{
+	width: 150px;
+	height: 150px;
+}
+.flex-header img{
+	padding: 0px;
+}
+h1{
+	font-size: 20px;
+}
+
+#overlay {
+      width: 312px;
+      height: 475px;
+    }
+
+.overlayflexcontainer {
+	flex-wrap: wrap;
+}
+
+.overlayflexcontainer > div {
+	height: 312px;
+	width: 312px;
+}
+
+
+
+}
+	
